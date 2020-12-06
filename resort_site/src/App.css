@@ -5,6 +5,11 @@
 .brand-name{
   margin-left: 1rem;
 }
+
+.links{
+  text-decoration: none;
+}
+
 .my-btn:hover{
   background: rgba(177, 175, 175, 0.2);
   color: #f2f2f2;
