@@ -1,0 +1,206 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.my-btn:hover{
+  background: rgba(177, 175, 175, 0.2);
+  color: #f2f2f2;
+}
+
+.hero-section{
+  min-height: calc(100vh - 56px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default-hero{
+  background-image: url('./assets/tokyo-default.jpg');
+}
+
+.rooms-hero{
+  background-image: url('./assets/rooms-page.jpeg');
+}
+
+.hero-content{
+  position: relative;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  text-transform: capitalize;
+  color: #f2f2f2;
+  padding: 2rem 3rem;
+}
+
+.hero-title{
+  font-size: 2.5rem;
+}
+
+.hero-content .line{
+  height: 6px;
+  width: 50%;
+  margin: 1.5rem auto;
+  background: #737571;
+}
+
+.hero-subtext{
+  font-size: 1.5rem;
+}
+
+.section-title{
+  text-align: center;
+  color: #000000;
+
+}
+
+.section-title h4{
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin: 1rem;
+}
+
+.section-title .line{
+  height: 6px;
+  width: 30%;
+  margin: 1rem auto;
+  background: #737571;
+}
+
+
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.service-icon {
+  display: inline-block;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-title{
+  font-size: 1.4rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.service-description{
+  font-size: 0.9rem;
+  width:80%;
+}
+
+
+.featured-rooms{
+  background-color: #000000ec;
+  color: #f2f2f2;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.featured-rooms .section-title{
+  color: #f2f2f2;
+}
+
+.featured-rooms .line{
+  margin-bottom: 3rem;
+}
+
+.room-card{
+  box-shadow: 2px 5px 3px 0px rgba(255, 255, 255, 0.5);
+  transition: 0.2s ease-in-out;
+  margin: 1rem;
+}
+
+.room-card:hover{
+  box-shadow: 4px 10px 6px 0px rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.room-card a{
+  text-decoration: none;
+}
+
+.img-container{
+  position: relative;
+}
+
+.img-container:hover{
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.img-container:hover img{
+  opacity: 0.4;
+}
+
+.img-container:hover .price-tag{
+  opacity: 0;
+}
+
+.img-container:hover .room-link{
+  transform: scale(1) translate(-50%, -50%);
+}
+
+.img-container img {
+  width: 100%;
+  display: block;
+}
+
+.price-tag{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  padding: 0.2rem;
+}
+
+.price-tag p{
+  font-size: 0.5rem;
+}
+
+.room-link{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(0);
+}
+
+.room-title{
+  background: #737571;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 600;
+}
+
+.carousel-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 20px 10vw;
+  max-width: 70%;
+}
+
+.room-section-header{
+  text-decoration: underline;
+}
+.room-details,
+.room-info,
+.room-extras{
+  padding: 1rem;
+}
+.room-info h5{
+  margin: 1.2rem 0;
+}
+
+.room-extras li{
+  margin: 0.5rem;
+}
