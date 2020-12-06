@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroSection from './HeroSection'
+
 
 const HeroContent = ({children, title, subtext}) => {
     return (

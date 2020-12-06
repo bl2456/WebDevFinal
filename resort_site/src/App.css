@@ -2,6 +2,9 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.brand-name{
+  margin-left: 1rem;
+}
 .my-btn:hover{
   background: rgba(177, 175, 175, 0.2);
   color: #f2f2f2;
@@ -160,6 +163,7 @@
   text-align: center;
   border-bottom-left-radius: 1rem;
   padding: 0.2rem;
+  color: #f2f2f2;
 }
 
 .price-tag p{
@@ -174,10 +178,13 @@
 }
 
 .room-title{
-  background: #737571;
+  color: #f2f2f2;
+  background: #000000;
   text-transform: capitalize;
   text-align: center;
   font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.3rem;
 }
 
 .carousel-container{
@@ -203,4 +210,29 @@
 
 .room-extras li{
   margin: 0.5rem;
+}
+
+.empty-search {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.form-group {
+  text-transform: capitalize;
+}
+.form-group label {
+  display: block;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 0.5rem;
+}
+.form-control {
+  width: 100%;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.filter-container {
+  padding: 2rem;
 }

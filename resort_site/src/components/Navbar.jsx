@@ -12,7 +12,7 @@ const NavBar = () => {
             <Navbar.Brand href="/">
                 <FaHotel className='nav-icon' />
                 <span className='brand-name'>
-                    Some Tokyo Resort
+                    Tokyo Night Resort
                 </span> 
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -23,7 +23,6 @@ const NavBar = () => {
                 </Nav>
                 <Nav>
                     <Nav.Link href="#deets">About Us</Nav.Link>
-                    <Nav.Link href="#deets">More deets</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

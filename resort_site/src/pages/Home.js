@@ -11,7 +11,7 @@ const Home = () => {
         <>
             <HeroSection hero='default-hero'>
                 <HeroContent 
-                title="Welcome to Tokyo Night Hotel!"
+                title="Welcome to Tokyo Night Resort!"
                 subtext="Rooms as low as $80!">
                     <Button className='my-btn' href='/#/Rooms'variant="light" size="lg">
                         Browse Rooms
