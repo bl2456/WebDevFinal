@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound';
 
 import NavBar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/Footer';
 
 import {RoomProvider} from './context';
 import './App.css';
@@ -29,6 +30,7 @@ function App() {
             <Route path='/NotFound' component={NotFound} exact/>
             <Redirect to='/NotFound' />
           </Switch>
+          <Footer />
         </Router>
       </RoomProvider>
     </>
